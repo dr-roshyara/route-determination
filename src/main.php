@@ -22,7 +22,7 @@
 
      Just select th start and end stops of your route. If there is an  exsiting route  between the start and end stops, this program will display the shortest route for you.  To display the route, please click on the button:
     <p class="mx-auto my-4 py-2 rounded "> <b>'ROUTE FINDEN'.</b></p>
-    Sie werden  dann sehen wie Ihre Route ist. 
+    You will see the route in the google map marked as red.
   <div> 
       <p class="font-semibold text-2xl py-2"> Example:</p>  
         <ul> 
