@@ -1,6 +1,8 @@
 
-1.	I had planned to finish within one day. However Gauß-Krüger-Koordinatensystem was new to me and it took time to understand the basic idea behind coordinate system. so It took a bit longer than I had planned.  
-2.	This problem could be solved in two ways. 
+##Used coordinate system is: 
+ Gauß-Krüger-Koordinatensystem 
+
+#	#This problem could be solved in two ways. 
 	 	a)  Show the  stops and points on simple HTML5 canvas. 
 		b) I could show the whole points on the maps like google map or Open Street. 
 	 		I didn't know however which you wanted to get the job done.  However I chose the second option even if the first option was easier for me to solve. 
