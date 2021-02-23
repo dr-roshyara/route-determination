@@ -1,11 +1,9 @@
-
-# **1. Used coordinate system is:** 
-## Gauß-Krüger-Koordinatensystem 
-
+# **1. Used coordinate system is: Gauß-Krüger-Koordinatensystem 
 #	2. This problem could be solved in two ways. 
 	a) Show the  stops and points on simple HTML5 canvas. 
 	b) I could show the whole points on the maps like google map or Open Street. 
 	c) I chose the second option even if the first option was easier for me to solve. 
+	
 #	3.	I followed the followings steps to solve the problem: 
 		1.	Convert the csv files into json data file 
 		
@@ -24,20 +22,21 @@
 		8.	The calculated distance should show also in the map. 
 		
 		9.	Show the points colorful at the end. and display the route also in written form. 
+		
 #   4. I didn't give much priority now for the layout and frontend technologies just becuase I 
 	 wanted to solve the problem first and then integrate it in a webpage with corresponding layout
 
 #	5. How to use the program: 
 	 
-	  a) Put the whole content of the folder 'sinkacom' into a PHP running environment (e.g.  Apache server). It can also be  something like  XAMPP, LAMPP etc .
+	  a) Put the whole content of the folder 'public' into a PHP running environment (e.g.  Apache server). It can also be  something like  XAMPP, LAMPP etc .
 	 
-	  b) go the the folder sinkacom 
+	  b) go the the project folder 
  	 
  	  c) Type the command : 
 		composer install 
 	  and enter to excute the command. This command will install the necessary dependencies 
 	 
-	  d) Go to the sinkacom/public folder  open it in a php running environment 
+	  d) Go to the project/public folder  open it in a php running environment 
 	 
 	 e) Give the start stop at the input:  startstelle  e.g. 182
 	
