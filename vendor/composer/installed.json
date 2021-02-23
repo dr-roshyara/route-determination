@@ -1,0 +1,149 @@
+[
+    {
+        "name": "components/jquery",
+        "version": "3.3.1",
+        "version_normalized": "3.3.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/components/jquery.git",
+            "reference": "459648cda77875519c5da3ae1dd0ed5d170aa649"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/components/jquery/zipball/459648cda77875519c5da3ae1dd0ed5d170aa649",
+            "reference": "459648cda77875519c5da3ae1dd0ed5d170aa649",
+            "shasum": ""
+        },
+        "time": "2018-03-04T13:23:48+00:00",
+        "type": "component",
+        "extra": {
+            "component": {
+                "scripts": [
+                    "jquery.js"
+                ],
+                "files": [
+                    "jquery.min.js",
+                    "jquery.min.map",
+                    "jquery.slim.js",
+                    "jquery.slim.min.js",
+                    "jquery.slim.min.map"
+                ]
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "JS Foundation and other contributors"
+            }
+        ],
+        "description": "jQuery JavaScript Library",
+        "homepage": "http://jquery.com"
+    },
+    {
+        "name": "fisharebest/algorithm",
+        "version": "1.5.1",
+        "version_normalized": "1.5.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/fisharebest/algorithm.git",
+            "reference": "7d1bc0fc91b66cf613af9147e9a287c905a8b062"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/fisharebest/algorithm/zipball/7d1bc0fc91b66cf613af9147e9a287c905a8b062",
+            "reference": "7d1bc0fc91b66cf613af9147e9a287c905a8b062",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "require-dev": {
+            "php-coveralls/php-coveralls": "*",
+            "phpunit/phpunit": "4.*"
+        },
+        "time": "2018-12-24T08:53:40+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Fisharebest\\Algorithm\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-3.0+"
+        ],
+        "authors": [
+            {
+                "name": "Greg Roach",
+                "email": "greg@subaqua.co.uk",
+                "role": "Developer"
+            }
+        ],
+        "description": "Implementation of standard algorithms in PHP.",
+        "homepage": "https://github.com/fisharebest/algorithm",
+        "keywords": [
+            "Algorithm",
+            "diff",
+            "dijkstra",
+            "myers"
+        ]
+    },
+    {
+        "name": "twbs/bootstrap",
+        "version": "v4.2.1",
+        "version_normalized": "4.2.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/twbs/bootstrap.git",
+            "reference": "9e4e94747bd698f4f61d48ed54c9c6d4d199bd32"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/twbs/bootstrap/zipball/9e4e94747bd698f4f61d48ed54c9c6d4d199bd32",
+            "reference": "9e4e94747bd698f4f61d48ed54c9c6d4d199bd32",
+            "shasum": ""
+        },
+        "replace": {
+            "twitter/bootstrap": "self.version"
+        },
+        "time": "2018-12-21T18:55:28+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.3.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Jacob Thornton",
+                "email": "jacobthornton@gmail.com"
+            },
+            {
+                "name": "Mark Otto",
+                "email": "markdotto@gmail.com"
+            }
+        ],
+        "description": "The most popular front-end framework for developing responsive, mobile first projects on the web.",
+        "homepage": "https://getbootstrap.com/",
+        "keywords": [
+            "JS",
+            "css",
+            "framework",
+            "front-end",
+            "mobile-first",
+            "responsive",
+            "sass",
+            "web"
+        ]
+    }
+]

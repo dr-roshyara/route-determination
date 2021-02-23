@@ -1,0 +1,25 @@
+{
+    "name": "sinkacom/example",
+    "description": "\"This is program to calculate and view the route between any two given points\"",
+    "authors": [
+        {
+            "name": "Nab Raj Roshyara",
+            "email": "roshyara@googlemail.com"
+        }
+    ],
+    "require": {
+        "components/jquery": "^3.3",
+        "twbs/bootstrap": "^4.2",
+        "fisharebest/algorithm": "^1.5"
+    },
+    "autoload":{
+      "files":[
+      "src/variables.php",
+      "src/header.php",
+      "src/navbar.php",
+      "src/main.php",
+       "src/footer.php" 
+
+      ]
+    }
+}

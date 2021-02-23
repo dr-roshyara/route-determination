@@ -1,0 +1,53 @@
+/**************************************************************************************
+	Navbar properties
+	***********************************************************************************/
+	 /*Define colors*/
+
+  .navbar{
+		background-color:  #F2DEDE; /*#FCF8E3; /*x#A94442; /* #F2DEDE; /* #003338;*/
+	}
+      /*  Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+     
+
+      #maport{
+        height: 100%;
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      .error{
+           color:red;
+           font-weight: bold;
+      }
+
+
+#main{
+
+	text-align: center;
+}
+#floating-panel {
+        position: absolute;
+        top: 0px;
+        left: 25%;
+        z-index: 5;
+        background-color: #fff;
+        padding: 5px;
+        border: 1px solid #999;
+        text-align: center;
+        font-family: 'Roboto','sans-serif';
+        line-height: 30px;
+        padding-left: 10px;
+      }
+      .footer{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: #F2DEDE;
+        text-align:center;
+        min-height: 10px;
+      }
