@@ -5,38 +5,56 @@
 #	2. This problem could be solved in two ways. 
 	a) Show the  stops and points on simple HTML5 canvas. 
 	b) I could show the whole points on the maps like google map or Open Street. 
-	I didn't know however which you wanted to get the job done.  However I chose the second option even if the first option was easier for me to solve. 
+	c) I chose the second option even if the first option was easier for me to solve. 
 #	3.	I followed the followings steps to solve the problem: 
 		1.	Convert the csv files into json data file 
+		
 		2.	Read the json formatted data  with php and ajax scripts
+		
 		3.	Convert the Gauß-Krüger coordinate system into normal coordinate system and calculate  the distance between them. The distance calculation was done using  Javascript function. 
+		
 		4.	Show the points in google map using google javascript api. 
+		
 		5.	Make a directed graph based on the given data . 
+		
 		6.	Use Dijkstra's algorithm  algorithm to find the shortest distance between two selected points. 
+		
 		7.	Read the shortest path using asynchronous method and I used Ajax scripts to update the calculated distance. At the moment, it calculates everytime the distances and also convert the Gaus-Krüger coordinates into normal coordinate systems. That is the reason why this program is a bit slow sometiimes, however one can save the pre-calcualated distance and coordinates in the server and just let the program to display the shortest route. Then it will be much faster than it is now. 
+		
 		8.	The calculated distance should show also in the map. 
+		
 		9.	Show the points colorful at the end. and display the route also in written form. 
-#	4 I didn't give much priority now for the layout and frontend technologies just becuase I 
-	wanted to solve the problem first and then integrate it in a webpage with corresponding layout
+#   4. I didn't give much priority now for the layout and frontend technologies just becuase I 
+	 wanted to solve the problem first and then integrate it in a webpage with corresponding layout
 
 #	5. How to use the program: 
-	a) Put the whole content of the folder 'sinkacom' into a PHP running environment (e.g. Apache server). It can also be  something like  XAMPP, LAMPP etc .
-	b) go the the folder sinkacom 
-	c) Type the command : 
+	 
+	  a) Put the whole content of the folder 'sinkacom' into a PHP running environment (e.g.  Apache server). It can also be  something like  XAMPP, LAMPP etc .
+	 
+	  b) go the the folder sinkacom 
+ 	 
+ 	  c) Type the command : 
 		composer install 
 	  and enter to excute the command. This command will install the necessary dependencies 
-	d) Go to the sinkacom/public folder  open it in a php running environment 
-	e) Give the start stop at the input:  startstelle  e.g. 182
+	 
+	  d) Go to the sinkacom/public folder  open it in a php running environment 
+	 
+	 e) Give the start stop at the input:  startstelle  e.g. 182
+	
 	f) Give the end stop at input:        Endstelle e.g. 145
+	
 	g) Calculate the route by clicking on: ROUTE FINDEN.
+	
 	h) This will show a route below the inputs and also mark the route line on the map.
 		e.g. You will see the follow message:
 		Ihre Route: 182=> 183=> 184=> 82=> 84=> 86=> 243=> 271=> 331=> 88=> 332=> 90=> 91=> 426=> 419=> 313=> 314=> 315=> 316=> 420=> 411=> 319=> 422=> 421=> 323=> 322=> 324=> 423=> 424=> 425=> 9=> 10=> 13=> 17=> 21=> 25=> 29=> 145.
 		i.e. You start from point 182, then go to 183, then to 184 and then to 82 etc. 		
+	
 	i) To know the exact location of the stop, you  can bring the mouse on over each the points plotted in the map. 
 	   This will show 
 	    1) the stop name and 
 	    2) the corresponding coordinates of the point or stop. 
+	
 	h) If you have problem in running the script, 
 	   please feel free to contact me via email:
 	   roshyara@gmail.com     
