@@ -1,12 +1,12 @@
 
-##Used coordinate system is: 
- Gauß-Krüger-Koordinatensystem 
+#  **1. Used coordinate system is:** 
+## Gauß-Krüger-Koordinatensystem 
 
-#	#This problem could be solved in two ways. 
-	 	a)  Show the  stops and points on simple HTML5 canvas. 
-		b) I could show the whole points on the maps like google map or Open Street. 
-	 		I didn't know however which you wanted to get the job done.  However I chose the second option even if the first option was easier for me to solve. 
-3.	I followed the followings steps to solve the problem: 
+#	2. This problem could be solved in two ways. 
+	a) Show the  stops and points on simple HTML5 canvas. 
+	b) I could show the whole points on the maps like google map or Open Street. 
+	I didn't know however which you wanted to get the job done.  However I chose the second option even if the first option was easier for me to solve. 
+#	3.	I followed the followings steps to solve the problem: 
 		1.	Convert the csv files into json data file 
 		2.	Read the json formatted data  with php and ajax scripts
 		3.	Convert the Gauß-Krüger coordinate system into normal coordinate system and calculate  the distance between them. The distance calculation was done using  Javascript function. 
@@ -16,9 +16,10 @@
 		7.	Read the shortest path using asynchronous method and I used Ajax scripts to update the calculated distance. At the moment, it calculates everytime the distances and also convert the Gaus-Krüger coordinates into normal coordinate systems. That is the reason why this program is a bit slow sometiimes, however one can save the pre-calcualated distance and coordinates in the server and just let the program to display the shortest route. Then it will be much faster than it is now. 
 		8.	The calculated distance should show also in the map. 
 		9.	Show the points colorful at the end. and display the route also in written form. 
-4	I didn't give much priority now for the layout and frontend technologies just becuase I wanted to solve the problem first and then integrate it in a webpage with corresponding layout
+#	4 I didn't give much priority now for the layout and frontend technologies just becuase I 
+	wanted to solve the problem first and then integrate it in a webpage with corresponding layout
 
-5.  How to use the program: 
+#	5. How to use the program: 
 	a) Put the whole content of the folder 'sinkacom' into a PHP running environment (e.g. Apache server). It can also be  something like  XAMPP, LAMPP etc .
 	b) go the the folder sinkacom 
 	c) Type the command : 
@@ -41,8 +42,8 @@
 	   roshyara@gmail.com     
 
 
-6. 	Names of the stops or points are given below:
-
+#	6. Names of the stops or points are given below:
+##
 1,
 2,
 3,
