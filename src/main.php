@@ -4,8 +4,8 @@
     
 <div class="container" >
 <div class="flex flex-col text-2xl py-4">      
-    <p class="mx-auto"> The Underlying map is google map  of a small town nearby <a class=" px-2 font-bold  text-gray-600" href=" https://biberach-riss.de/" > Biberach </a>Germany.   Bus stops are marked with numbers in the google map. Some bus routes are either only one way while the others have  two ways also. A detailed informaton on the one or two way route is described the file:
-      
+    <p class="mx-auto"> The Underlying map is google map  of a small town nearby <a class=" px-2 font-bold  text-gray-600" href=" https://biberach-riss.de/" > Biberach </a>Germany.   Bus stops are marked with numbers in the google map. Some bus routes are either only one way while the others have  two ways also. One way routes are marked with one arrow only in the route direction  and two way routes are marekd with the arrows in both side. Please zoom the map to see the arrows exactly.   
+      A detailed informaton on the one or two way route is also described the file:
      <b> final_graph.php </b>. Each Bus stop is marked as the coordinate system.  
       <p class=" my-4 px-4 "> 
         e.g.<br> 
